@@ -5,7 +5,7 @@
 <h2 style="background-color:lightgray; color:black; padding: 10px;  border-radius: 5px; height: 5%;
   width: 100%;"> Repositorio criado para aprimorar o conhecimento em Python :rocket: </h2> 
      
-#### 𝐀𝐪𝐮𝐢 𝐯𝐨𝐮 𝐚𝐝𝐢𝐜𝐢𝐨𝐧𝐚𝐫 𝐩𝐫𝐨𝐣𝐞𝐭𝐨𝐬 𝐬𝐢𝐦𝐩𝐥𝐞𝐬 𝐞 𝐚𝐯𝐚𝐧𝐜̧𝐚𝐝𝐨𝐬 𝐜𝐨𝐦 𝐩𝐲𝐭𝐡𝐨𝐧 𝐞 𝐨𝐮𝐭𝐫𝐚𝐬 𝐭𝐞𝐜𝐧𝐨𝐥𝐨𝐠𝐢𝐚𝐬 𝐫𝐞𝐥𝐚𝐜𝐢𝐨𝐧𝐚𝐝𝐚𝐬
+#### <mark> Aqui vou adicionar projetos do simples ao avançado com Python e outras tecnologias relacionadas </mark>
 </div>
 
 <h2> Tecnologias usadas até agora 👾</h2>
