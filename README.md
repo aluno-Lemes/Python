@@ -10,12 +10,12 @@
 
 <h2> Tecnologias usadas até agora 👾</h2>
 
--  ## Python <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="20" lengh="20"/>
--  ## GIT <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="20" lengh="20"/>
+-  ### Python <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="25" lengh="25"/>
+-  ### GIT <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="20" lengh="20"/>
 
 
-<h3 style="background-color:darkgreen; padding: 10px; border-radius: 5px; height: 5%;
-  width: 100%;" align="center"> :computer: Minhas Branches 🌲 </h3>
+<h2 style="background-color:darkgreen; padding: 10px; border-radius: 5px; height: 5%;
+  width: 100%;" align="left"> :computer: Minhas Branches 🌲 </h2>
 
  - ###  <a href="https://github.com/aluno-Lemes/Python/tree/Python-basics" target="self"> Python basics </a>
 </html>
