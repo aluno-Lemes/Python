@@ -10,8 +10,8 @@
 
 <h2> Tecnologias usadas até agora 👾</h2>
 
--  ### Python <a href="https://www.python.org/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="25" lengh="25"/></a>
--  ### GIT <a href="https://git-scm.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="20" lengh="20"/></a>
+-  ### Python <a href="https://www.python.org/" target="blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="25" lengh="25"/></a>
+-  ### GIT <a href="https://git-scm.com/" target="blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="20" lengh="20"/></a>
 
 
 <h2 style="background-color:darkgreen; padding: 10px; border-radius: 5px; height: 5%;
