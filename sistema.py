@@ -23,10 +23,11 @@ while True:
         if num > 0 :
             saldo += num
             print("Saldo atualizado com sucesso !!!")
-        
-        else:
-         print("Ação invalida")
+    
+        elif num =
 
+        else:
+            print("Ação invalida")
 
     elif opcao == "2":
         if numero_saques < LIMITE_SAQUES:
@@ -41,6 +42,7 @@ while True:
             elif num1 <= saldo :
                 saldo -= num1
                 numero_saques += 1
+                extrato += f"Saque: R$ { num1:.2f}\n"
                 print("Saldo atualizado com sucesso !!!")
 
             else :
@@ -50,8 +52,13 @@ while True:
             print("!!! LIMITE DE SAQUES DIARIOS ATINGIDOS !!!")
 
     elif opcao == "3":
-        print ("Extrato")
-        print (saldo)
+        print ("-----/-----/-----EXTRATO-----\-----\-----")
+        print (f"# Saldo de R$:{saldo:.2f} #")
+        print (f"# Numero de Saques realizados: {numero_saques}")
+        print ("-----/-----/-----/-----\-----\-----\-----")
+# 
+#                
+
 
     elif opcao == "0":
         print("Encerrando programa")
