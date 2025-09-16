@@ -9,10 +9,13 @@ menu = """
 
 saldo = 0
 limite = 500
-extrato = ""
+extrato = []
 numero_saques = 0
 LIMITE_SAQUES = 3
 
+def callExtrato():
+    for elemento in extrato:
+        print(elemento)
 
 while True:
     
@@ -20,11 +23,11 @@ while True:
 
     if opcao == "1":
         num = float(input("Digite o valor que deseja Depositar: \n"))
+        
         if num > 0 :
             saldo += num
+            extrato.append(f"Deposito - R$:{num:.2f}")
             print("Saldo atualizado com sucesso !!!")
-    
-        elif num =
 
         else:
             print("Ação invalida")
@@ -39,10 +42,10 @@ while True:
             elif num1 > saldo:
                 print("saldo insuficiente!")
 
-            elif num1 <= saldo :
+            elif 0 < num1 <= saldo :
                 saldo -= num1
                 numero_saques += 1
-                extrato += f"Saque: R$ { num1:.2f}\n"
+                extrato.append(f"Saque - R$:{num1:.2f}")
                 print("Saldo atualizado com sucesso !!!")
 
             else :
@@ -54,7 +57,10 @@ while True:
     elif opcao == "3":
         print ("-----/-----/-----EXTRATO-----\-----\-----")
         print (f"# Saldo de R$:{saldo:.2f} #")
-        print (f"# Numero de Saques realizados: {numero_saques}")
+        print (f"# Total de movimentações na conta: {len(extrato)}")
+        print (f"# Numero de Saques realizados: {numero_saques}\n")
+        print ("-----/-----/----HISTÓRICO----\-----\-----")
+        print (callExtrato())
         print ("-----/-----/-----/-----\-----\-----\-----")
 # 
 #                
