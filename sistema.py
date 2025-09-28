@@ -1,74 +1,118 @@
+import datetime
+
+#Declaração de variaveis
+Saldo = 0
+Limite = 500
+Extrato = []
+numSaques = 0
+limiteSaque = 3
+transacoes = len(Extrato)
+
+
+
 menu = """
+O que deseja fazer ?
 
-[1] Depositar
-[2] Sacar
-[3] Extrato
-[0] Sair
+    [1]   DEPOSITAR
+    [2]   SACAR
+    [3]   EXTRATO
+    [4]   SAIR  \n
+    """
 
-=> """
 
-saldo = 0
-limite = 500
-extrato = []
-numero_saques = 0
-LIMITE_SAQUES = 3
+#Função responsavel pela entrada de valores
+def entrada(x):
+    try:
+        valor = float(input(f"Digite o valor a ser {x}: \n"))
+        return valor
+    except:
+        return 0
 
-def callExtrato():
-    for elemento in extrato:
-        print(elemento)
-
-while True:
     
-    opcao = input(menu)
+#função responsavel pela estrutura do sistema
+def Main():
 
-    if opcao == "1":
-        num = float(input("Digite o valor que deseja Depositar: \n"))
-        
-        if num > 0 :
-            saldo += num
-            extrato.append(f"Deposito - R$:{num:.2f}")
-            print("Saldo atualizado com sucesso !!!")
+    while True:
 
-        else:
-            print("Ação invalida")
+        opção = input(menu)
 
-    elif opcao == "2":
-        if numero_saques < LIMITE_SAQUES:
-            num1 = float(input("Digite o valor que deseja Sacar: \n"))
+        if opção == "1":
+           depositar(entrada("Depositado"))
 
-            if num1 > limite:
-                print(f"Valor limite para Saques é de R$:{limite}")
+        elif opção == "2":
+            if numSaques < limiteSaque:
+                sacar(entrada("Sacado"))
+            else:
+                print("Limite de saques diarios atingido!")
 
-            elif num1 > saldo:
-                print("saldo insuficiente!")
+        elif opção == "3":
+            extrato()
 
-            elif 0 < num1 <= saldo :
-                saldo -= num1
-                numero_saques += 1
-                extrato.append(f"Saque - R$:{num1:.2f}")
-                print("Saldo atualizado com sucesso !!!")
-
-            else :
-                print("Ação invalida")
+        elif opção == "4":
+            print ("Encerrando Programa")
+            break
 
         else:
-            print("!!! LIMITE DE SAQUES DIARIOS ATINGIDOS !!!")
-
-    elif opcao == "3":
-        print ("-----/-----/-----EXTRATO-----\-----\-----")
-        print (f"# Saldo de R$:{saldo:.2f} #")
-        print (f"# Total de movimentações na conta: {len(extrato)}")
-        print (f"# Numero de Saques realizados: {numero_saques}\n")
-        print ("-----/-----/----HISTÓRICO----\-----\-----")
-        print (callExtrato())
-        print ("-----/-----/-----/-----\-----\-----\-----")
-# 
-#                
+            print ("OPÇÂO INVALIDA")
 
 
-    elif opcao == "0":
-        print("Encerrando programa")
-        break
+
+# Bloco responsavel pelo controle de tempo
+def getTime():
+    data_hora = datetime.datetime.now()
+    return data_hora.strftime("%d/%m/%Y - %H:%M")
+
+
+
+#Função responsavel pelo Deposito
+def depositar(num):
+    global Saldo
+
+    if num <= 0:
+        print("\nNão foi possivel realizar esta ação! ")
 
     else:
-        print("OPÇÃO INVALIDA")
+        Extrato.append(f"Deposito - R$:{num:.2f} -- Data:{getTime()} ")
+        Saldo += num
+        print("\nValor atualizado com sucesso ! ")
+    
+    
+
+#Função responsavel pelo Saque
+def sacar(num):
+    global Saldo
+    global numSaques
+
+    if num > Saldo:
+        print("Saldo insuficiente")
+    
+    elif num > Limite:
+        print(f"Limite por saque é de {Limite:.2f} ")
+
+    elif num <= 0:
+        print("\nNão foi possivel realizar esta ação! ")
+
+    else:
+        Extrato.append(f"Saque - R$:{num:.2f} -- Data:{getTime()} ")
+        Saldo -= num
+        numSaques += 1
+        print("\nValor atualizado com sucesso ! ")
+            
+
+
+#Função responsavel pelo Extrato
+def extrato():
+    print ("-----#-----#-----EXTRATO-----#-----#-----")
+    print (f"# Saldo de R$:{Saldo:.2f} #")
+    print (f"# Total de movimentações na conta: {len(Extrato)}\n")
+    print ("-----#-----#----HISTÓRICO----#-----#-----")
+    for elemento in Extrato: print(elemento)
+    print ("-----#-----#-----#-----#-----#-----#-----")
+
+    
+print (" #-#-#-#-#-#-#-# SISTEMA BANCARIO #-#-#-#-#-#-#-# ")
+
+Main()
+
+
+
