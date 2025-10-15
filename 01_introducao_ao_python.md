@@ -1,10 +1,15 @@
-# Introdução ao Python
-Python foi criado em 1995 por Guido Van Rossum. O principal intuito da linguagem era ser fácil de aprender e divertida para o programador.
 
-Com o passar do anos foi ganhando mais adeptos e foi se estendendo a vários campos de utilização (web, desktop, mobile, IoT, etc). Empresas como Google, Globo.com tem grande parte de seus produtos implementados em Python.
+## 🐍 Introdução ao Python
 
-Hoje alguns frameworks são muito conhecidos e praticamente qualquer desenvolvedor ao redor do mundo ao menos já ouviu falar, um do exemplos mais comuns é o framework web Django.
+- **Origem (1989):** O Python foi criado por **Guido van Rossum** nos Países Baixos, durante o período de Natal. Seu objetivo era desenvolver uma linguagem de programação que fosse **fácil de ler, simples de usar e poderosa o suficiente** para resolver problemas complexos. O nome “Python” foi inspirado no grupo de comédia britânico *Monty Python*, refletindo o espírito leve e divertido da linguagem.  
 
-Nesse curso vamos abordar as bibliotecas padrões do Python, esse é o primeiro passo para todos os desenvolvedores que desejam trabalhar com a linguagem.
+- **Primeira versão (1991):** Guido lançou o **Python 0.9.0**, que já incluía recursos inovadores para a época, como **funções, exceções, módulos e tipos de dados dinâmicos**. Desde o início, a linguagem se destacou por sua **clareza sintática**, permitindo que o código fosse quase tão legível quanto o inglês.  
 
-Caso nunca tenha escrito nenhuma linha de código Python não se preocupe, o material foi pensado para guia-lo na jornada de aprendizado desde o inicio.
+- **Evolução e crescimento:** Ao longo dos anos, o Python passou por grandes atualizações, como o **Python 2 (2000)** e o **Python 3 (2008)**, que trouxe melhorias na estrutura da linguagem e na compatibilidade com tecnologias modernas. Sua popularidade cresceu rapidamente, sendo adotado em **universidades, empresas e comunidades de desenvolvedores**.  
+
+- **Uso atual:** Hoje, o Python é uma das linguagens **mais populares do mundo**, amplamente utilizada em **ciência de dados, inteligência artificial, desenvolvimento web, automação e cibersegurança**.  
+
+- **Comunidade e futuro:** Mantido pela **Python Software Foundation (PSF)**, o Python continua evoluindo com o apoio de uma comunidade global ativa e colaborativa, que contribui para torná-lo cada vez mais acessível, eficiente e relevante para o futuro da tecnologia.
+
+### <a href="https://pt.wikipedia.org/wiki/Python" >📚 Python Wikipedia </a> 
+### <a href="https://www.youtube.com/watch?v=yBTlo9vcwCM" > 🎥 A História do Python </a>
