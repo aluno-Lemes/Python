@@ -20,6 +20,6 @@
 <h2 style="background-color:darkgreen; padding: 10px; border-radius: 5px; height: 5%;
   width: 100%;" align="left"> :computer: Minhas Branches 🌲 </h2>
 
- - ### <a href="https://github.com/aluno-Lemes/Python/tree/Python-basics" target="_self"> Python basics </a>
+ - ### <a href="https://github.com/aluno-Lemes/Python/tree/Python-Basics" target="_self"> Python basics </a>
  - ### <a href="https://github.com/aluno-Lemes/Python/tree/Desafios-DIO" target="_self"> Desafios DIO </a>
 </html>
