@@ -1,5 +1,4 @@
 # Configurando o ambiente
-Neste curso vamos utilizar o sistema operacional Ubuntu, porém a escolha do sistema operacional é sua.
 
 ## Windows
 Acesse a página de downloads do Python [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/), neste curso vamos utilizar a versão 3.6.2 que é a versão mais atual no momento da escrita desse material.
