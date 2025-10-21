@@ -23,7 +23,7 @@ print(f'Meu nome é {name} e eu tenho {age} ano(s) de idade.')
 age = 22
 name = 'Giovanna'
 print(f'Meu nome é {name} e eu tenho {age} ano(s) de idade.')
->>> Meu nome é Guilherme e eu tenho 23 ano(s) de idade.
+>>> Meu nome é Felipe e eu tenho 23 ano(s) de idade.
 >>> Meu nome é Giovanna e eu tenho 22 ano(s) de idade.
 ```
 
