@@ -23,7 +23,6 @@ print(f'Meu nome é {name} e eu tenho {age} ano(s) de idade.')
 age = 22
 name = 'Giovanna'
 print(f'Meu nome é {name} e eu tenho {age} ano(s) de idade.')
->>> Meu nome é Felipe e eu tenho 23 ano(s) de idade.
 >>> Meu nome é Giovanna e eu tenho 22 ano(s) de idade.
 ```
 
@@ -36,7 +35,7 @@ Em Python não conseguimos criar valores contantes, ou seja, não existe um pala
 Mas podemos dizer ao programador através de convenção que aquela variável deve se comportar como uma constante. Para fazer isso, você deve criar a váriavel com o nome todo em letras maíusculas:
 
 ```python
-ABS_PATH = '/home/Lucas/Documents/PythonCourse/'
+ABS_PATH = '/home/Lucas/Documents/PythonBasics/'
 ```
 
 
@@ -44,17 +43,18 @@ ABS_PATH = '/home/Lucas/Documents/PythonCourse/'
 ## Exercícios
 
 1. Crie um programa para armazenar as informações de um livro em variáveis, precisamos armazenar as seguintes informações: título, autor, ano de publicação, número de páginas e editora.
-
+```
 título = "A Terceira Margem do Rio"
 autor = "João Guimarães Rosa"
 anoPublicação = 1964
 numeroPaginas = 409
 editora = Nova Aguilar
-
+```
 2. Altere o programa do exercício anterior, e adicione uma constante para o número de páginas do livro.
-
+```
 título = "A Terceira Margem do Rio"
 autor = "João Guimarães Rosa"
 anoPublicação = 1964
 NUMEROPAGINAS = 409
 editora = Nova Aguilar
+```
