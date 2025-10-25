@@ -1,7 +1,8 @@
 """### Exercicios Operadores ###
 1- Crie um programa que imprima o valor do maior número entre duas variáveis.
-
-
+2- Crie um programa que imprima o maior e o menor valor entre três variáveis.
+3- Crie um programa que imprima 'HAHAHA' caso o número da variável seja par.
+4- Crie um programa para dizer se o número é par ou ímpar.
 """
 
 a = 82
@@ -38,4 +39,5 @@ def reteste(x):
  
 reteste(a)
 reteste(b)
+
 reteste(c)
