@@ -39,5 +39,4 @@ def reteste(x):
  
 reteste(a)
 reteste(b)
-
 reteste(c)
