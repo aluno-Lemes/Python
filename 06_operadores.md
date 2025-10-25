@@ -113,61 +113,10 @@ if not b > a:
   print('SUCESSO')
   print('A é maior que B')
 ```
-
-
-
 ## Exercícios
 1. Crie um programa que imprima o valor do maior número entre duas variáveis.
-```python
-a = 82
-b = 65
-
-if a > b :
-    print (f"entre {a} e {b}, {a} é maior que {b}")
-else :
-    print  (f"entre {a} e {b}, {b} é maior que {a}")
-```
-
 2. Crie um programa que imprima o maior e o menor valor entre três variáveis.
-```python
-a = 36
-b = 54
-c = 19
-
-if a > b:
-    if a > c:
-        print (f"{a} é o maior numero entre {a}, {b} e {c}")
-    elif c > b:
-        print (f"{c} é o maior numero entre {a}, {b} e {c}")
-elif b > c:
-    print (f"{b} é o maior numero entre {a}, {b} e {c}")
-
-```
-
 3. Crie um programa que imprima 'HAHAHA' caso o número da variável seja par.
-```python
-a = 62
-
-par = a%2
-if par == 0:
-    print ("HAHAHA")
-
-```
-
 4. Crie um programa para dizer se o número é par ou ímpar.
-```python
-a = 27
-b = 92
-c = 46
 
-def reteste(x):
-    sobra = x%2
-    if sobra == 0:
-        print (f"{x} é PAR")
-    else:
-        print (f"{x} é IMPAR")
- 
-reteste(a)
-reteste(b)
-reteste(c)
-```
+<a href="https://github.com/aluno-Lemes/Python/blob/Exerc%C3%ADcios/01.Operadores.py">RESOLUÇÂO </a>
