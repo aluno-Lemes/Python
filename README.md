@@ -6,6 +6,5 @@
 ### <mark> Branch criada para adicionar as resoluçôes dos desafios propostos no <a href="https://github.com/aluno-Lemes/Python/tree/Python-Basics" target="_self"> Python basics </a> e outros </mark>
 </div>
 
-1. ### <a href="https://github.com/aluno-Lemes/Python/tree/Python-Basics" target="_self"> Python basics </a>
- - ### <a href="https://github.com/aluno-Lemes/Python/tree/Desafios-DIO" target="_self"> Desafios DIO </a>
+1. #### <a href="https://github.com/aluno-Lemes/Python/blob/Exerc%C3%ADcios/01.Operadores.py" target="_self">Operadores </a>
 </html>
